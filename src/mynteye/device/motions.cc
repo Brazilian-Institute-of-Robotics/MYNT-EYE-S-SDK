@@ -20,6 +20,7 @@ MYNTEYE_BEGIN_NAMESPACE
 
 namespace {
 
+#define M_PI (3.14159265358979323846)
 #define RAD2DEG(rad) (rad/M_PI*180.)
 #define MPSS2G(mpss) (mpss/9.81)
 
